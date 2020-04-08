@@ -1,15 +1,14 @@
-import React from 'react';
+import React from "react";
 
-const Headers = ({title, children}) => {
-    return (
-        <>
-            <header>
-                <h1>{title}</h1>
-                {children}
-            </header>
-            
-        </>
-    );
-}
+const Headers = ({ title, children }) => {
+  return (
+    <>
+      <header>
+        <h1>{title}</h1>
+        {children}
+      </header>
+    </>
+  );
+};
 
 export default Headers;
